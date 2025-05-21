@@ -9,9 +9,12 @@ body {
 }
 
 .container {
-  padding: 50px 20px;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 h1, h2 {
   color: #2a4d9b;
 }
