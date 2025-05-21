@@ -1,13 +1,15 @@
 body {
+body {
   font-family: 'Cairo', sans-serif;
   background: linear-gradient(to bottom, #d4e0ff, #ffffff);
   color: #333;
   margin: 0;
   padding: 0;
-  text-align: center;
   direction: rtl;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
 .container {
   padding: 20px;
   min-height: 100vh;
@@ -123,3 +125,8 @@ p {
 .chatbot-section img:hover {
   transform: scale(1.1);
 }
+  
+main {
+  flex : 1 ; 
+  }
+  
